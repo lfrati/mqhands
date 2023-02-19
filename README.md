@@ -25,7 +25,7 @@ node 01-mqtt/mqtt_test.js
 <img width="1239" alt="mqtt" src="https://user-images.githubusercontent.com/3115640/219961094-93421355-6319-4617-993a-b0a910b4d3f4.png">
 
 
-## 03-mediapipe_demo
+## 02-mediapipe_demo
 Fancy [mediahands demo](https://codepen.io/mediapipe/pen/RwGWYJw)
 
 ```bash
@@ -33,7 +33,7 @@ live-server 02-mediapipe_demo/dist
 ```
 <img width="1728" alt="fancy" src="https://user-images.githubusercontent.com/3115640/219965402-a68f1c09-b691-4eda-ba53-3c37ce69665e.png">
 
-## 02-mediapipe_barebones
+## 03-mediapipe_barebones
 The barebones example from [mediapipe website](https://google.github.io/mediapipe/solutions/hands.html#javascript-solution-api)
 
 ```bash
