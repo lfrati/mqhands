@@ -1,26 +1,18 @@
 # MQTT + mediahands = ❤️
 
-# Dependencies
-
-Add mqtt to the dependencies (for node)
-```bash
-cd mqhands
-npm install mqtt --save
-```
-
-Add mqtt globally to access the cli commands.
-```bash
-npm install mqtt -g
-```
-
-Live server to run demos
+We need a local server to run the demos:
 ```bash
 npm install -g live-server
-live-server mediapipe_demo/dist/
 ```
 
 # Scripts
 ## 01-mqtt
+
+We need both the node version and the cli
+```bash
+npm install mqtt --save
+npm install mqtt -g
+```
 
 In one terminal run to start listening to the topic `hands`:
 ```bash
@@ -50,10 +42,11 @@ live-server 03-mediapipe_barebones
 <img width="1728" alt="bare" src="https://user-images.githubusercontent.com/3115640/219965453-2282833b-31a3-414a-b579-71cdfc81045e.png">
 
 ## 04-mqtt+p5
+```bash
+live-server 04-mqtt+p5
+```
 
-Trying to marry the MQTT communication with the mediapipe hands goodness, using p5 as glue.
-
-TODO: mqtt doesn't want to connect...
+- [ ]  mqtt doesn't want to connect...
 
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/3115640/219965596-c58d06e2-cd20-4d5c-ab8c-9e8e5bdb7dca.png">
 
