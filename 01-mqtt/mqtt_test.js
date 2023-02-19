@@ -1,10 +1,11 @@
 const mqtt = require('mqtt')
-const client  = mqtt.connect('wss://test.mosquitto.org')
+const client  = mqtt.connect('mqtt://test.mosquitto.org')
 
 client.on('connect', function () {
   client.subscribe('hands', function (err) {
     if (!err) {
-      client.publish('hands', 'Hello mqtt')
+    const seconds = new Date().getSeconds();
+      client.publish('hands', 'Hello mqtt:' + seconds.toString())
     }
   })
 })
